@@ -1,0 +1,30 @@
+html {
+  width: 100%;
+  /* Ensure the container spans the full width */
+  max-width: 100%;
+  /* Ensure the container does not exceed the width of its parent */
+  box-sizing: border-box;
+  /* Include padding and border in the width calculation */
+}
+body {
+  width: 100%;
+  /* Ensure the container spans the full width */
+  max-width: 100%;
+  /* Ensure the container does not exceed the width of its parent */
+  box-sizing: border-box;
+  /* Include padding and border in the width calculation */
+}
+iframe {
+  box-sizing: border-box;
+  /* Include padding and border in the width calculation */
+  padding: 0;
+  width: 100%;
+}
+img {
+  width: 100%;
+  padding: 0;
+}
+.content-div {
+  width: 100%;
+  padding: 0 5px;
+}
