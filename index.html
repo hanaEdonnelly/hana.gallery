@@ -2,22 +2,15 @@
 layout: default
 title: Home
 ---
-<h1>{{ page.title }}</h1>
-<div class="pg-width">
-  <div class="pg-container">
     <h2>Projects</h2>
     <ul id="projects" class="ul-boxes">
       {% for project in site.projects %}
       <a href="{{ project.url }}"><li>{{ project.title }}</li></a>
       {% endfor %}
     </ul>
-  </div><!-- pg-container -->
-  <div class="pg-container">
     <h2>Experience</h2>
     <ul id="resume" class="ul-boxes">
     {% for entry in site.resume_entries %}
     <a href="{{ entry.url }}"><li>{{ entry.title }}</li></a>
     {% endfor %}
-  </div>
-</div><!-- pg-width -->
 
