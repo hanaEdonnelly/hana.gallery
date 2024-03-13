@@ -1,3 +1,12 @@
+h1 {
+  text-wrap: pretty;
+}
+h2 {
+  text-wrap: pretty;
+}
+p {
+  text-wrap: pretty;
+}
 html {
   width: 100%;
   /* Ensure the container spans the full width */
@@ -17,12 +26,14 @@ iframe {
   box-sizing: border-box;
   /* Include padding and border in the width calculation */
   padding: 0;
+  margin: auto;
+  display: block;
   width: 320px;
 }
 img {
   max-width: 100%;
-  width: 100%;
-  box-sizing: border-box;
+  display: block;
+  margin: auto;
 }
 .body-div {
   padding: 0;

@@ -1,8 +1,8 @@
 ---
-title: Football ticket app redesign
+title: Sports ticket app redesign
 layout: default
 ---
-<img src="/assets/images/Ticket App Mobile View.jpg" alt="Screenshot of a football ticketing app's home screen.">
+<img src="/assets/images/Ticket App Mobile View.jpg" alt="Screenshot of a football ticketing app's home screen." width="300px">
 
 In ITEC444, we were instructed to create a mobile app design for our course-long project.
 
@@ -23,6 +23,7 @@ The final result is hosted on Flutterflow, a low-code solution that has a free s
 ## Research & Data Collection
 I performed two methods of research to collect data justifying the project. Method one involved a survey of 11 respondents. Method included two group interviews asking users about pain points and high points while utilizing the app.
 <iframe src="https://drive.google.com/file/d/1gEUaKkGEF8YFtxFpxNFHueQVDISRwiz2/preview" height="480"></iframe>
+&nbsp;
 <iframe src="https://drive.google.com/file/d/1s38-iW2DeVHpoPGTGrc2bjUYeAFjBF6c/preview" height="480"></iframe>
 
 ## Low-Fidelity Prototype
