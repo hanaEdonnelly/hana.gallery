@@ -20,10 +20,9 @@ iframe {
   width: 320px;
 }
 img {
-  width: 100%;
-  padding: 0;
-  margin: 0;
   max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
 }
 .body-div {
   padding: 0;
@@ -32,6 +31,8 @@ img {
   max-width: 100%;
 }
 .content-div {
+  max-width: 100%;
   width: 100%;
-  padding: 0 5px;
+  box-sizing: border-box;
+  padding: 0 7px;
 }
