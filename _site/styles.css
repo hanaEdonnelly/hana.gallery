@@ -136,16 +136,18 @@ h1 {
   font-weight: 400;
   font-style: normal;
   text-wrap: pretty;
-  font-size: 48px;
+  font-size: 36pxpx;
   margin: 0;
   text-align: center;
+  text-transform: capitalize;
 }
 h2 {
   font-family: "Racing Sans One", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-wrap: pretty;
-  font-size: 38px;
+  font-size: 28pxpx;
+  text-transform: capitalize;
 }
 p,
 a {
@@ -154,7 +156,7 @@ a {
   font-weight: 400;
   font-style: normal;
   text-wrap: pretty;
-  font-size: 30px;
+  font-size: 18px;
 }
 html {
   width: 100%;
@@ -194,11 +196,11 @@ button {
   text-align: center;
   background-color: #fff;
   border: none;
-  font-size: 30px;
+  font-size: 18px;
   font-family: "Bitter", serif;
 }
 ul {
-  font-size: 30px;
+  font-size: 18px;
   font-family: "Bitter", serif;
 }
 ul > * {
@@ -239,9 +241,12 @@ ul > * {
   text-align: center;
   box-shadow: 0 2.5rem 2rem -2rem hsla(200, 50%, 20%, 0.4);
   background-color: #fff;
+  text-transform: capitalize;
+  color: #4B0082;
 }
 .ul-boxes > li > a {
   text-decoration: none;
+  color: #4B0082;
 }
 .story-button {
   display: block;
@@ -250,5 +255,5 @@ ul > * {
   box-shadow: 0 2.5rem 2rem -2rem hsla(200, 50%, 20%, 0.4);
   width: 60%;
   background-color: #ececec;
-  color: #551a8b;
+  color: #4B0082;
 }
