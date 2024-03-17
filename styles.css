@@ -137,6 +137,7 @@ h1 {
   font-style: normal;
   text-wrap: pretty;
   font-size: 48px;
+  margin: 0;
 }
 h2 {
   font-family: "Racing Sans One", sans-serif;
@@ -182,6 +183,23 @@ img {
   display: block;
   margin: auto;
 }
+.body-div {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  background-color: #ececec;
+}
+.content-div {
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 7px;
+}
+.box-container {
+  padding: 0 7px 7px 7px;
+  border-radius: 7px;
+}
 .ul-boxes {
   display: flex;
   flex-flow: column wrap;
@@ -199,20 +217,4 @@ img {
 }
 .ul-boxes > li > a {
   text-decoration: none;
-}
-.body-div {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  max-width: 100%;
-}
-.content-div {
-  max-width: 100%;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0 7px;
-}
-.box-container {
-  padding: 0 7px 7px 7px;
-  border-radius: 7px;
 }
