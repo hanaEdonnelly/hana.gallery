@@ -12,6 +12,7 @@ h1 {
    text-wrap: pretty;
    font-size: 48px;
    margin: 0;
+   text-align: center;
 }
 
 h2 {
@@ -46,6 +47,10 @@ body {
    box-sizing: border-box;
 }
 
+.body-div {
+   height:100%;
+}
+
 iframe {
    box-sizing: border-box; /* Include padding and border in the width calculation */
    padding: 0;
@@ -58,6 +63,31 @@ img {
    max-width: 100%;
    display: block;
    margin: auto;
+}
+
+button {
+   margin-bottom: 10px;
+   padding: 10px;
+   border-radius: 7px;
+   text-align: center;
+   background-color: #fff;
+   border: none;
+   font-size: 30px;
+   font-family: "Bitter", serif;
+}
+
+ul {
+   font-size: 30px;
+   font-family: "Bitter", serif;
+}
+
+ul > * {
+   margin-bottom: 7px;
+}
+
+.story-div {
+   background-color: #fff;
+   padding: 5px;
 }
 
 .body-div {
@@ -99,6 +129,16 @@ img {
 
 .ul-boxes > li > a {
    text-decoration: none;
+}
+
+.story-button {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%);
+   width: 60%;  
+   background-color: #ececec;
+   color: rgb(85, 26, 139);
 }
 
 // Media query for tablets

@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
     {% include head.html %}
+    {% include nav.html %}
 </html>
 <body>
-    <h1 class="project-header">{{ page.title }}</h1>
-    <div class="project-content">
-        {{ content }}
+    <div class="body-div">
+        <div class="content-div">   
+            <div class="story-div">
+            {% include back.html %}    
+                <h1>{{ page.title }}</h1>
+                {{ content }}
+            </div>
+        </div>
     </div>
     
 </body>

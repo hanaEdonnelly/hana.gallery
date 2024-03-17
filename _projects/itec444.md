@@ -1,6 +1,6 @@
 ---
-title: Sports ticket app redesign
-layout: default
+title: USC Sports Ticketing App Redesign
+layout: entry
 ---
 <img src="/assets/images/Ticket App Mobile View.jpg" alt="Screenshot of a football ticketing app's home screen." width="300px">
 
@@ -12,10 +12,11 @@ The app is notorious among students for having hard-to-use design, sometimes pre
 
 This project aimed to re-envision an application in which these processes were more streamlined than the current iteration of the Cockpit app.
 
-## Final result
+## Results
 The final result is hosted on Flutterflow, a low-code solution that has a free student EDU plan. If given more time, I would change some functionalities within the app, for example, including a Firebase database to store user data. Though this project was solely concerned with front-end design, so I am satisfied with the end result. 
 
-<button href="https://app.flutterflow.io/project/cockpit-round-2-ucqi0u" class="button" id="cockpit-app-redesign">Link to Live Hosted Project</button>
+<button onclick="window.location.href='https://app.flutterflow.io/project/cockpit-round-2-ucqi0u'" class="story-button" id="cockpit-app-redesign">Link to Live Hosted Project (desktop only)</button>
+
 
 ## Project charter
 <iframe src="https://drive.google.com/file/d/1W8qdPPOZQHTvIygPdX_phILF1qhAll3e/preview" height="480"></iframe>
