@@ -1,16 +1,21 @@
 ---
 layout: default
-title: Home
+title: Hana Donnelly
 ---
-<h2>Projects</h2>
-<ul id="projects" class="ul-boxes">
-  {% for project in site.projects %}
-  <a href="{{ project.url }}"><li>{{ project.title }}</li></a>
+<div class="box-container">
+  <h2>Projects</h2>
+  <ul id="projects" class="ul-boxes">
+    {% for project in site.projects %}
+    <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+<div class="box-container">
+  <h2>Experience</h2>
+  <ul id="resume" class="ul-boxes">
+  {% for entry in site.resume_entries %}
+  <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
   {% endfor %}
-</ul>
-<h2>Experience</h2>
-<ul id="resume" class="ul-boxes">
-{% for entry in site.resume_entries %}
-<a href="{{ entry.url }}"><li>{{ entry.title }}</li></a>
-{% endfor %}
+</div>
+
 
