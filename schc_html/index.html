@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>South Carolina Honors College</title>
+        <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+        <style type="text/css">
+            button {
+                color: white;
+                background-color: #73000A;
+                border:1px #73000A solid;
+                padding: 10px;
+            }
+            button:hover {
+                background-color: white;
+                color: #73000A;
+                border: 1px #73000A solid;
+                cursor: pointer;
+            }
+            .center {
+                display: flex;
+                justify-content: center;
+            }
+            video {
+                display: block;
+                width: 100%;
+                margin: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <header>
+            <div id="logo-top">
+                <img src="imgs/usc_logo.svg" alt="Garnet and black logo of the University of South Carolina" width="300">
+            </div>
+            <div id="h2-top">
+                <h2>South Carolina Honors College</h2> 
+            </div>
+            <!--Navigation-->
+            <div id="nav">
+                <ul>
+                    <li><a class="active-nav" href="index.html">HOME</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="apply.html">APPLY</a></li>
+                    <li><a href="resources.html">RESOURCES</a></li>
+                    <li><a href="project.html">ABOUT PROJECT</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="body-container">
+            <div id=home-center>
+                <!--Photo-->
+                <img src="imgs/students.jpg" alt="Four students sitting at a table collaborating." style="width:100%">
+                <h1 id="body-title">The #1 Honors College in South Carolina</h1>
+                <h3 style="text-align: center;">Applications now open for 2023. Do you have what it takes?</h3>
+                <div class="center">
+                    <button type="button" onclick="location.href='apply.html'" style="width: 300px; font-size: 14pt;">Apply now</button>
+                </div>
+                <hr style="width: 70%; color: #ccc; margin-top: 30px;">
+            </div><!-- home-center -->
+
+            <div class="text-container">
+                <!--Left-side sidebar-->
+                <section class="left-sidebar">
+                    <aside>
+                        <!-- Article 1 -->
+                        <h3>Quick links</h3>
+                        <p>
+                           The South Carolina Honors College has set up a page with commonly used web resources related to SCHC.
+                           You can access these links by clicking the button below.
+                        </p>
+                        <div class="center">
+                            <button type="button" onclick="location.href='resources.html'">See More</button>
+                        </div>
+                        <!-- Article 2-->
+                        <h3>Advising</h3>
+                        <p>
+                           Honors Advising for Fall 2022 is now open! Upcoming classes can be found by clicking the button below. You can  schedule your advising appointment through Microsoft Teams...
+                        </p>
+                        <div class="center">
+                            <button type="button" onclick="location.href='courses.html'">See More</button>
+                        </div>
+                        <!-- Article 3 -->
+                        <h3>About SCHC</h3>
+                        <p>
+                           The South Carolina Honors College has a rich history. From its foundations in 1977 to today, the Honors College has been helping students reach their potential...
+                        </p>
+                        <div class="center">
+                            <button type="button" onclick="location.href='project.html'">See More</button>
+                        </div>
+                    </aside>
+                </section>
+
+                <!--Main body-->
+                <section class="main">
+                    <!-- Video -->
+                    <video controls>
+                        <source src="vids/honors-video.mp4">
+                        Your browser does not support videos.
+                    </video>
+                    <!-- Article 1 -->
+                    <h2>
+                        Latest news
+                    </h2>
+                    <h3>Applications due for Washington semester program</h3>
+                    <p>Time is running out to apply to the SCHC Washington semester Program!<br>
+                    While in this program, students will live, work, and study in Washington, D.C. to prepare for careers in the political sphere. Students will work in a variety of roles with the South Carolina Congressional Delegation.<br> 
+                    This program is not just limited to those majoring and minoring, and we invite all those who are interested to apply now!</p>
+                    <!-- Video -->
+                    <h3>Alumni Reception in Atlanta</h3>
+                    <p>SCHC alumni, prospective students, and their families are invited to our 2022 Alumni Reception in Atlanta, Georgia. The event will be held from 6:00 to 8:00pm at Capital City Club – Brookhaven. <br>
+                        All interested parties are invited to RSVP by emailing info@honors.sc.edu.</p>
+                </section>
+            </div> <!-- .text-container -->
+        </div> <!-- .body-container -->
+
+        <footer>
+            <div id="foot-left">
+                <p>&copy;Hana Donnelly 2022</p>
+            </div>
+            <div id="foot-icons">
+                <ul>
+                    <li><img src="imgs/facebook.png" alt="Facebook"></li>
+                    <li><img src="imgs/instagram.png" alt="Instagram"></li>
+                    <li><img src="imgs/linkedin.png" alt="LinkedIn"></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="stickynav.js"></script>
+    </body>
+</html>
