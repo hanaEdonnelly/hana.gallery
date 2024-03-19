@@ -4,7 +4,7 @@ layout: entry
 ---
 <img src="/assets/images/Ticket App Mobile View.jpg" alt="Screenshot of a football ticketing app's home screen." width="300px">
 
-In ITEC444, we were instructed to create a mobile app design for our course-long project.
+As a part of ITEC444 Introduction to Human-Computer interaction, we were instructed to create a mobile app design for our course-long project.
 
 I chose to re-design the "Cockpit" app, a proprietary app at USC for students and faculty to access free football tickets.
 
@@ -36,7 +36,7 @@ I then created a hi-fi prototype using Figma to use as a blueprint for developme
 <iframe src="https://drive.google.com/file/d/1QRIfBTwAN2chgL6ijLaJaQAqXcIldAJ0/preview" height="480"></iframe>
 
 This prototype incorporated feedback from peer review for the low-fi prototype, seen below.
-<iframe src="https://drive.google.com/file/d/12RuYISP-Ksn4zrURzjwKBZbWthciAPzN//preview" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/12RuYISP-Ksn4zrURzjwKBZbWthciAPzN/preview" height="480"></iframe>
 
 ## Reflection
 This project was a tremendous success for me as a start-to-finish designer. I took a lot of pleasure in creating a user-friendly and mobile-forward design as a case study for improving the Cockpit app in its current form. Things I would change for next time include looking at creating a web abb for front end, utilizing Firebase functionality in using Flutterflow, and implementing user testing in addition to surveying.
