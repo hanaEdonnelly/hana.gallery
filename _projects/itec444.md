@@ -1,14 +1,14 @@
 ---
-title: USC Sports Ticketing App Redesign
+title: Sports Ticketing App Design
 layout: entry
 ---
 <img src="/assets/images/Ticket App Mobile View.jpg" alt="Screenshot of a football ticketing app's home screen." width="300px">
 
 As a part of ITEC444 Introduction to Human-Computer interaction, we were instructed to create a mobile app design for our course-long project.
 
-I chose to re-design the "Cockpit" app, a proprietary app at USC for students and faculty to access free football tickets.
+I chose to implement a design of a NCAA ticketing app themed for fit University of South Carolina branding.
 
-The app is notorious among students for having hard-to-use design, sometimes preventing people from getting tickets when desired. A high amount of students must contact ticketing services due to failure to request a ticket, or failure for tickets to show up in their account.
+One is bound to hear complaints about the hard-to-use application currently implemented by the University of South Carolina for its NCAA sports ticketing. Based on users' complaints and complements about the current app in use at USC, I designed a human-centered ticketing app to address frustrations users may have, while keeping effective parts of other ticketing applications.
 
 This project aimed to re-envision an application in which these processes were more streamlined than the current iteration of the Cockpit app.
 

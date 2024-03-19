@@ -12,4 +12,4 @@ This design was implemented as a web page optimized for both mobile and web.
 
 <button onclick="window.location='/assets/schc_html/index.html'" class="story-button">Link to view project</button>
 
-## Results
+**Disclaimer: No profits or funds were generated from this website and all usage of USC or SCHC branding or content was used only for learning purposes while in ITEC362.
