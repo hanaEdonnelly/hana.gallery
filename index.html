@@ -3,10 +3,10 @@ layout: default
 title: Hana Donnelly
 ---
 <div class="box-container">
-  <h2>Design Projects</h2>
+  <h2>Projects</h2>
   <ul id="projects" class="ul-boxes">
     {% for project in site.projects %}
-    <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+    <a href="{{ project.url }}"><li>{{ project.title }}</li></a>
     {% endfor %}
   </ul>
 </div>
@@ -14,7 +14,7 @@ title: Hana Donnelly
   <h2>Work Experience</h2>
   <ul id="resume" class="ul-boxes">
   {% for entry in site.resume_entries reversed %}
-  <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+  <a href="{{ entry.url }}"><li>{{ entry.title }}</li></a>
   {% endfor %}
 </div>
 
