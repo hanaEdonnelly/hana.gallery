@@ -1,6 +1,8 @@
 ---
-title: Scrum Master | USC Bus Improvement Project
+title: Scrum Master - USC Bus Improvement Project
 layout: entry
+when: 2024
+company: USC Parking and Transportation
 ---
 ## January 2024 - May 2024
 

@@ -1,6 +1,7 @@
 ---
-title: Web Design Intern | Gamecock Men's Hockey
+title: Web Design Intern
 layout: entry
+company: Gamecock Men's Hockey
 ---
 <img src="/assets/images/gamecock.png" alt="The logo of the University of South Carolina." width="300px">
 

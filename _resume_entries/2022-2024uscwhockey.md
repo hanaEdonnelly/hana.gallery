@@ -1,5 +1,6 @@
 ---
-title: Founder, President, Captain | USC Women's Hockey
+title: Founder, President, Captain 
+company: Gamecock Women's Hockey
 layout: entry
 ---
 <img  src="/assets/images/usc women hockey.png" alt="The logo of the USC Women's Club Hockey team." width="300px">

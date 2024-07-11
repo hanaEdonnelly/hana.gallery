@@ -6,7 +6,7 @@ title: Hana Donnelly
   <h2>Projects</h2>
   <ul id="projects" class="ul-boxes">
     {% for project in site.projects %}
-    <a href="{{ project.url }}"><li>{{ project.title }}</li></a>
+    <a href="{{ project.url }}"><li><b>{{ project.title }}</b><br>{{ project.company }}<br>{{ project.when }}</li></a>
     {% endfor %}
   </ul>
 </div>
@@ -14,7 +14,7 @@ title: Hana Donnelly
   <h2>Work Experience</h2>
   <ul id="resume" class="ul-boxes">
   {% for entry in site.resume_entries reversed %}
-  <a href="{{ entry.url }}"><li>{{ entry.title }}</li></a>
+  <a href="{{ entry.url }}"><li><b>{{ entry.title }}</b><br>{{ entry.company }}</li></a>
   {% endfor %}
 </div>
 

@@ -1,6 +1,8 @@
 ---
 title: SCHC Website Redesign Case Study
 layout: entry
+when: 2022
+company: ITEC362 @ USC
 ---
 <img src="/assets/images/schc.jpg" alt="Screenshot of the re-imagined SCHC website" width="300px">
 
