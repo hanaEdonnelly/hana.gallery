@@ -226,7 +226,7 @@ ul > * {
 }
 .story-div {
   background-color: #fff;
-  padding: 5px;
+  padding: 5px 10px;
   margin-top: 3px;
   border-radius: 7px;
 }
@@ -264,11 +264,11 @@ ul > * {
   /* Applies to every 6th child starting from the 3rd child */
 }
 .ul-boxes > a:nth-child(6n+4) {
-  color: #6E8F2C;
+  color: #50a21a;
   /* Applies to every 6th child starting from the 4th child */
 }
 .ul-boxes > a:nth-child(6n+5) {
-  color: #418652;
+  color: #10938b;
   /* Applies to every 6th child starting from the 5th child */
 }
 .ul-boxes > a:nth-child(6n+6) {
