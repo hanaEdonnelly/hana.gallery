@@ -5,8 +5,9 @@ title: Hana Donnelly
 <div class="box-container">
   <h2>Projects</h2>
   <ul id="projects" class="ul-boxes">
-    {% for project in site.projects %}
-    <a href="{{ project.url }}"><li><b>{{ project.title }}</b><br>{{ project.company }}<br>{{ project.when }}</li></a>
+    {% assign reversed_projects = site.projects | reverse %}
+    {% for project in reversed_projects %}
+    <a href="{{ project.url }}"><li><b>{{ project.title }}</b><br>{{ project.company }}<br>{{ project.when }}<br>{{ project.thumbnail }}</li></a>
     {% endfor %}
   </ul>
 </div>
