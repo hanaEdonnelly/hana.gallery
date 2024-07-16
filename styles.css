@@ -251,25 +251,29 @@ ul > * {
   text-transform: capitalize;
   text-decoration: none;
 }
-.ul-boxes > a:nth-child(5n+1) {
+.ul-boxes > a:nth-child(6n+1) {
   color: #B65E5E;
-  /* Applies to every 5th child starting from the 1st child */
+  /* Applies to every 6th child starting from the 1st child */
 }
-.ul-boxes > a:nth-child(5n+2) {
+.ul-boxes > a:nth-child(6n+2) {
   color: #B67230;
-  /* Applies to every 5th child starting from the 2nd child */
+  /* Applies to every 6th child starting from the 2nd child */
 }
-.ul-boxes > a:nth-child(5n+3) {
+.ul-boxes > a:nth-child(6n+3) {
   color: #B39A23;
-  /* Applies to every 5th child starting from the 3rd child */
+  /* Applies to every 6th child starting from the 3rd child */
 }
-.ul-boxes > a:nth-child(5n+4) {
+.ul-boxes > a:nth-child(6n+4) {
   color: #6E8F2C;
-  /* Applies to every 5th child starting from the 4th child */
+  /* Applies to every 6th child starting from the 4th child */
 }
-.ul-boxes > a:nth-child(5n+5) {
+.ul-boxes > a:nth-child(6n+5) {
   color: #418652;
-  /* Applies to every 5th child starting from the 5th child */
+  /* Applies to every 6th child starting from the 5th child */
+}
+.ul-boxes > a:nth-child(6n+6) {
+  color: #9a5f85;
+  /* Applies to every 6th child starting from the 6th child */
 }
 .story-button {
   display: block;
