@@ -216,7 +216,7 @@ ul > * {
   margin: 0 auto;
   width: 100%;
   max-width: 100%;
-  background-color: #ececec;
+  background-color: #e2e2e2;
 }
 .content-div {
   max-width: 100%;
@@ -249,8 +249,27 @@ ul > * {
   box-shadow: 0 2.5rem 2rem -2rem hsla(200, 50%, 20%, 0.4);
   background-color: #fff;
   text-transform: capitalize;
-  color: #4B0082;
   text-decoration: none;
+}
+.ul-boxes > a:nth-child(5n+1) {
+  color: #B65E5E;
+  /* Applies to every 5th child starting from the 1st child */
+}
+.ul-boxes > a:nth-child(5n+2) {
+  color: #B67230;
+  /* Applies to every 5th child starting from the 2nd child */
+}
+.ul-boxes > a:nth-child(5n+3) {
+  color: #B39A23;
+  /* Applies to every 5th child starting from the 3rd child */
+}
+.ul-boxes > a:nth-child(5n+4) {
+  color: #6E8F2C;
+  /* Applies to every 5th child starting from the 4th child */
+}
+.ul-boxes > a:nth-child(5n+5) {
+  color: #418652;
+  /* Applies to every 5th child starting from the 5th child */
 }
 .story-button {
   display: block;
@@ -267,4 +286,17 @@ ul > * {
 }
 .top {
   margin: 7px;
+}
+@media (min-width: 1024px) {
+  .content-div {
+    padding: 0;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 100%;
+  }
+  .box-container {
+    padding: 3px 7px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+  }
 }
