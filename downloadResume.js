@@ -1,5 +1,5 @@
 function downloadResume() {
-    var pdfUrl = 'assets/files/Resume - Hana Donnelly.pdf; // URL of the PDF file
+    var pdfUrl = 'assets/files/Resume - Hana Donnelly.pdf'; // URL of the PDF file
     var a = document.createElement('a');
     a.style.display = 'none';
     a.href = pdfUrl;
