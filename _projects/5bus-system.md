@@ -14,6 +14,19 @@ Due to the nature of USC Transportation busses being funded by student tuition f
 ## Results
 Overall, the study indicated multiple areas of improvement within the bus system currently. Our survey encompassed 498 responses at the end of the collection period.
 
+### TL;DR
+* Poor knowledge of the busses
+    * Improve information access by creating social media and email presence
+    * Bus stop signage
+* Times and scheduling prevent ridership
+    * Decrease headway to under 10 mins between busses
+    * Or schedule busses to the minute
+* Bus stops (location and the stops themselves) dissuade riders
+    * Make bus stops more interconnected
+* Future improvements 
+    * Tracking app
+    * Improving bus stop signage, weather shielding, seating, accessibility
+
 ### Information Distribution
 Through our analysis, we discovered that a majority of people do not understand how the bus system works. This was an opinion expressed evenly across all four classifications (Freshmen: n=65 or 27.54%, sophomores: n=73 or 30.93%, juniors: n=42 or 17.79%, seniors: n=52 or 22.03%)sophomores coming in first (n=73 or 30.93%,) freshmen second (n=65 or 27.54%). Additionally, riders who utilized the bus 1-10 times, were still almost just as likely to be as confused as those who had not ridden it at all. 
 
