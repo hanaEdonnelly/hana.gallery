@@ -3,17 +3,18 @@ layout: default
 title: Hana Donnelly
 ---
 <div class="box-container">
-  <div id="resume-container" class="ul-boxes">
-    <button onclick="downloadResume()" id="resume-button"><b>Download PDF of Resume</b></button>
-  </div>
+  <p><b>B.S. Integrated Information Technology</b><br>University of South Carolina Honors College<br>(2020-2024)</p>
+  <p><b>Focus Areas:</b> Web Development, Business Analytics, User Experience (UX) Design, Technical Writing</p>
+  <div class="ul-boxes">
+  <button onclick="downloadResume()" id="resume-button"><b>Download PDF of Resume</b></button>
+</div>
   <h2>Projects</h2>
   <ul id="projects" class="ul-boxes">
-    {% assign reversed_projects = site.projects | reverse %}
-    {% for project in reversed_projects %}
-    <a href="{{ project.url }}"><li><b>{{ project.title }}</b><br>{{ project.company }}<br>{{ project.when }}<br>{{ project.thumbnail }}</li></a>
-    {% endfor %}
+      {% assign sorted_projects = site.projects | sort: 'order' | reverse %}
+      {% for project in sorted_projects %}
+      <a href="{{ project.url }}"><li><b>{{ project.title }}</b><br>{{ project.company }}<br>{{ project.when }}<br>{{ project.thumbnail }}</li></a>
+      {% endfor %}
   </ul>
-</div>
 <div class="box-container">
   <h2>Work Experience</h2>
   <ul id="resume" class="ul-boxes">

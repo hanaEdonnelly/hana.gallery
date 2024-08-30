@@ -3,6 +3,7 @@ title: Designer - Chatbot for Children with Autism
 layout: entry
 when: 2024
 company: ITEC534 @ USC
+order: 4
 ---
 ## January 2024 - May 2024
 

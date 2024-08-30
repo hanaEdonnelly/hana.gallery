@@ -69,6 +69,8 @@ img {
    max-width: 100%;
    display: block;
    margin: auto;
+   border-radius: 7px;
+   overflow: visible; /* Ensures the image can display rounded corners */
 }
 
 button {
@@ -111,7 +113,9 @@ ul > * {
    padding: 5px 10px;
    margin-top: 3px;
    border-radius: 7px;
+   overflow: visible  /* Ensure no clipping happens */
 }
+
 
 .box-container {
    padding: 0 7px 7px 7px;
@@ -126,7 +130,7 @@ ul > * {
    padding: 0;
 }
 
-.ul-boxes > a {
+.ul-boxes > a, .ul-boxes > div {
    margin-bottom: 10px;
    padding: 35px 5px;
    border-radius: 7px;
@@ -135,7 +139,9 @@ ul > * {
    background-color: #fff;
    text-transform: capitalize;
    text-decoration: none;
+   color: #000;
 }
+
 .ul-boxes > a:nth-child(6n+1) {
    color: #B65E5E; /* Applies to every 6th child starting from the 1st child */
 }

@@ -193,6 +193,7 @@ img {
   max-width: 100%;
   display: block;
   margin: auto;
+  border-radius: 7px;
 }
 button {
   margin-bottom: 10px;

@@ -4,6 +4,7 @@ title: Mobile-first virtual museum - The discovery of Ardi
 company: ANTH161 @ USC
 when: 2022
 thumbnail:
+order: 2
 ---
 <h2 style="text-align: center">Fall 2022</h2>
 <img src="/assets/images/ardi.png" alt="Paleoanthropologists unearth fossils in Hadar, Ethiopia in 2009." width="300px">

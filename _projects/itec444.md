@@ -3,6 +3,7 @@ title: Sports Ticketing App Design
 layout: entry
 company: ITEC444 @ USC
 when: 2023
+order: 3
 ---
 <img src="/assets/images/Ticket App Mobile View.jpg" alt="Screenshot of a football ticketing app's home screen." width="300px">
 
