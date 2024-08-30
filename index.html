@@ -1,0 +1,25 @@
+---
+layout: default
+title: Hana Donnelly
+---
+<div class="box-container">
+  <div id="resume-container" class="ul-boxes">
+    <button onclick="downloadResume()" id="resume-button"><b>Download PDF of Resume</b></button>
+  </div>
+  <h2>Projects</h2>
+  <ul id="projects" class="ul-boxes">
+    {% assign reversed_projects = site.projects | reverse %}
+    {% for project in reversed_projects %}
+    <a href="{{ project.url }}"><li><b>{{ project.title }}</b><br>{{ project.company }}<br>{{ project.when }}<br>{{ project.thumbnail }}</li></a>
+    {% endfor %}
+  </ul>
+</div>
+<div class="box-container">
+  <h2>Work Experience</h2>
+  <ul id="resume" class="ul-boxes">
+  {% for entry in site.resume_entries reversed %}
+  <a href="{{ entry.url }}"><li><b>{{ entry.title }}</b><br>{{ entry.company }}</li></a>
+  {% endfor %}
+</div>
+
+<script src="downloadResume.js"></script>

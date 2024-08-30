@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Apply to SCHC</title>
+        <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+        <style>
+            form {
+                margin-bottom: 30px;
+                padding: 5px;
+                border: 1px dashed #363636;
+                border-width: medium;
+                text-align:justify;
+            }
+
+            input[type="text"], textarea {
+                padding: 12px 20px;
+                font-family: "Berlingske Sans", "Arial", sans-serif;
+            }
+
+            input[type="text"]:focus, textarea:focus {
+                padding: 12px 20px;
+                /*font-family: "Berlingske Sans", "Arial", sans-serif;*/
+                border:#73000A 3px solid;
+            }
+
+            form label {
+                font-family: "Berlingske Sans", "Arial", sans-serif;
+                padding: 2px;
+            }
+
+            input[type="submit"] {
+                background-color: #73000A;
+                justify-content: center;
+                color: white;
+                text-transform: uppercase;
+                font-family:  "Berlingske Sans Extracondensed", "Impact", sans-serif;
+                border: #73000A solid 1px;
+                font-size: 12pt;
+            }
+
+            input[type="submit"]:hover {
+                background-color: white;
+                color: #73000A;
+                border: #73000A solid 1px;
+                cursor: pointer;
+                font-size: 12pt;
+            }
+        </style>
+    </head>
+
+    <body>
+    <header>
+        <div id="logo-top">
+            <img src="imgs/usc_logo.svg" alt="Garnet and black logo of the University of South Carolina" width="300">
+        </div>
+        <div id="h2-top">
+            <h2>South Carolina Honors College</h2> 
+        </div>
+        <!--Navigation-->
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="courses.html">COURSES</a></li>
+                <li><a class="active-nav" href="apply.html">APPLY</a></li>
+                <li><a href="resources.html">RESOURCES</a></li>
+                <li><a href="project.html">ABOUT PROJECT</a></li>
+            </ul>
+        </div>
+    </header>
+
+        <div class="body-container">
+            <img src="imgs/grads.jpg" alt="University of South Carolina graduates sit at a ceremony." style="width: 100%;">
+            <div class="text-container">
+            <!--List of notices-->
+            <section class="align-center" style="margin: 60px 5px 0 5px;">
+                <h3 style="text-align: center;"> Please in indicate your interest in joining the South Carolina Honors College by using the form below. </h3>
+                <p>
+                    Applications are due by May 30, 2022. <br>
+                    Please contact our <a href="https://sc.edu/about/offices_and_divisions/division_of_information_technology/">Information Technology department</a> if there are any issues with submitting your form.
+                </p>
+            </section>
+
+                <!--Begin form-->
+                <form method="POST" action="">
+                    <div class="align-center">
+                        <div id="body-title">
+                            <h2>Application</h2>
+                        </div>
+                        <div>
+                            <!--First name-->
+                            <label for="first">First name:</label>
+                            <input type="text" name="first" id="first">
+                            <br>
+                            <br>
+                        </div>
+                        <div>
+                            <!--Last name-->
+                            <label for="last">Last name:</label>
+                            <input type="text" name="last" id="last">
+                            <br>
+                            <br>
+                        </div>
+                        <div>
+                            <!--In state?-->
+                            <label for="residency">Are you a resident of South Carolina?</label>
+                            <br>
+                            <input type="radio" name="residency" value="Resident" id="yes">
+                            <label for="yes">Yes, I am a resident.</label><br>
+                            <input type="radio" name="residency" value="Not a resident" id="no">
+                            <label for="no">No, I am not a resident.</label><br>
+                            <br>
+                            <br>
+                        </div>
+                        <div>
+                            <!--Interest-->
+                            <label for="interests">Please indicate your interest in the following SCHC opportunities:</label>
+                            <br>
+                            <input type="checkbox" name="interests" id="study-abroad" value="Study abroad">
+                            <label for="study-abroad">Study abroad</label><br>
+                            <input type="checkbox" name="interests" id="maymester" value="Maymester">
+                            <label for="maymester">Maymester</label><br>
+                            <input type="checkbox" name="interests" id="service" value="Service-based learning">
+                            <label for="service">Service-based learning</label><br>
+                            <input type="checkbox" name="interests" id="nonmajor" value="Non-major courses">
+                            <label for="nonmaj">Non-major SCHC courses</label><br>
+                            <br>
+                            <br>
+                        </div>
+                        <!--Short answer 1-->
+                        <div>
+                            <label for="sa1">Tell us why you would be a good fit for SCHC (2000 characters):</label><br>
+                            <textarea name="sa1" id="sa1" rows="7" cols="80" maxlength="2000"></textarea>
+                        </div>
+                        <!--Submit button-->
+                        <div style="text-align: center;">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </div>
+                </form> 
+            </div><!--.text-container-->
+        </div> <!-- .body-container -->
+
+        <footer>
+            <div id="foot-left">
+                <p>&copy;Hana Donnelly 2022</p>
+            </div>
+            <div id="foot-icons">
+                <ul>
+                    <li><img src="imgs/facebook.png" alt="Facebook"></li>
+                    <li><img src="imgs/instagram.png" alt="Instagram"></li>
+                    <li><img src="imgs/linkedin.png" alt="LinkedIn"></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="stickynav.js"></script>
+    </body>
+</html>

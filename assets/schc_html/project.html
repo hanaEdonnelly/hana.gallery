@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>South Carolina Honors College</title>
+        <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+        <style>
+            table {
+                margin: auto;
+                width: 70%;
+                padding-bottom: 30px;
+            }
+            th {
+                background-color: #73000A;
+                color:white;
+                font-weight: bold;
+                padding: 5px 0;
+                font-size: large;
+            }
+
+            td {
+                padding: 10px 5px;
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr:hover {
+                background-color: black;
+                color:white;
+            }
+
+            tr:hover a {
+                color: #974c5e;
+            }
+
+            tr:hover a:visited {
+                color: lightgreen;
+            }
+
+            td a {
+                color:#73000A;
+            }
+
+            td a:visited {
+                color: #363636;
+            }
+            
+            /*Move footer if reaches certain height, content doesn't fill whole page*/
+            @media only screen and (min-height:845px) {
+                footer {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                }
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div id="logo-top">
+                <img src="imgs/usc_logo.svg" alt="Garnet and black logo of the University of South Carolina" width="300">
+            </div>
+            <div id="h2-top">
+                <h2>South Carolina Honors College Website Project</h2> 
+            </div>
+            <!--Navigation-->
+            <div id="nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="apply.html">APPLY</a></li>
+                    <li><a href="resources.html">RESOURCES</a></li>
+                    <li><a href="project.html">ABOUT PROJECT</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="body-container">
+            <div class="text-container">
+                <h1 id="body-title">About this project</h1>
+                <p style="font-weight: bold; text-decoration: underline; font-style: italic;">March 2024 Update: Apologies for nonfunctionality in this portion of the website. Due to issues with Jekyll supporting files, I am still working out a solution to the table seen below. I apologize for any frustrations or issues with the below code.<br>-Hana Donnelly</p>
+                <p>This website was created to fulfull requirements outlined by Prof. Travis Dalton at the University of South Carolina for ITEC362: Intro to Web Systems.
+                    <strong>The subject matter of this website is solely used for this classwork example and does not represent the University of South Carolina, its colleges, or interests.</strong>
+                </p>
+                <p>The goal with this website was to envision a redesign of the South Carolina Honors College website to be more user-friendly and aesthetically pleasing.</p>
+                <p>In the following table are the documents created in Prof. Dalton's ITEC362 for the design of this website.</p>
+            </div>
+            <table>
+                <!--Title -->
+                <tr>
+                    <th colspan="2">Assignment Documents</th>
+                </tr>
+                <tr>
+                    <td>Topic Proposal</td>
+                    <td><a href="/assets/schc_html/files/proposal.pdf">Proposal</a></td>
+                </tr>
+                <tr>
+                    <td>Planning Document</td>
+                    <td><a href="files/Planning.pdf">Plan</a>
+                </tr>
+                <tr>
+                    <td>HTML-Only Rough Draft</td>
+                    <td><a href="files/html-draft.zip">HTMLDraft.zip</a></td>
+                </tr>
+                <tr>
+                    <td>CSS Rough Draft</td>
+                    <td><a href="css-draft.zip">CSSDraft.zip</a></td>
+                </tr>
+                <tr>
+                    <td>CSS Validation</td>
+                    <td><a href="css-validation.png">CSS Validation</a></td>
+                </tr>
+                <tr>
+                    <td>Website Performance</td>
+                    <td><a href="lighthouse.pdf">Lighthouse Report</a></td>
+                </tr>
+                <tr>
+                    <td>Usability Survey</td>
+                    <td><a href="/files/survey.pdf">Usability Survey</a></td>
+                </tr>
+                <tr>
+                    <td>Final Revisions</td>
+                    <td><a href="/files/revisions.pdf">Revisions Document</a></td>
+                </tr>
+            </table>   
+            <footer>
+                <div id="foot-left">
+                    <p>&copy;Hana Donnelly 2022</p>
+                </div>
+                <div id="foot-icons">
+                    <ul>
+                        <li><img src="imgs/facebook.png" alt="Facebook"></li>
+                        <li><img src="imgs/instagram.png" alt="Instagram"></li>
+                        <li><img src="imgs/linkedin.png" alt="LinkedIn"></li>
+                    </ul>
+                </div>
+            </footer>
+        <script src="stickynav.js"></script>
+    </body>
+</html>

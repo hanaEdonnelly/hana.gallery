@@ -1,0 +1,203 @@
+// Define breakpoints
+@tablet: 768px;
+@desktop: 1024px;
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Racing+Sans+One&display=swap');
+
+//Mobile Styles
+h1 { 
+   font-family: "Racing Sans One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   text-wrap: pretty;
+   font-size: 32px;
+   margin: 0;
+   text-align: center;
+   text-transform: capitalize;
+}
+
+h2 {
+   font-family: "Racing Sans One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   text-wrap: pretty;
+   font-size: 24pxpx;
+   text-transform: capitalize;
+}
+
+h3 {
+   font-family: "Racing Sans One", sans-serif;
+   font-weight: 200;
+}
+
+p, a, li {
+   font-family: "Bitter", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+    font-style: normal;
+   text-wrap: pretty;
+   font-size: 16px;
+}
+
+html {
+   width: 100%; /* Ensure the container spans the full width */
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+body {
+   width: 100%; /* Ensure the container spans the full width */
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.body-div {
+   height:100%;
+}
+
+iframe {
+   box-sizing: border-box; /* Include padding and border in the width calculation */
+   padding: 0;
+   margin: auto;
+   display: block;
+   width: 320px;
+}
+
+img {
+   max-width: 100%;
+   display: block;
+   margin: auto;
+}
+
+button {
+   margin-bottom: 10px;
+   padding: 10px;
+   border-radius: 7px;
+   text-align: center;
+   background-color: #fff;
+   border: none;
+   font-size: 16px;
+   font-family: "Bitter", serif;
+}
+
+ul {
+   font-size: 16px;
+   font-family: "Bitter", serif;
+}
+
+ul > * {
+   margin-bottom: 7px;
+}
+
+.body-div {
+   padding: 0;
+   margin: 0 auto;
+   width: 100%;
+   max-width: 100%;
+   background-color: #e2e2e2;
+}
+
+.content-div {
+   max-width: 100%;
+   width: 100%;
+   box-sizing: border-box;
+   padding: 5px 7px 0;
+}
+
+.story-div {
+   background-color: #fff;
+   padding: 5px 10px;
+   margin-top: 3px;
+   border-radius: 7px;
+}
+
+.box-container {
+   padding: 0 7px 7px 7px;
+   border-radius: 7px;
+}
+
+.ul-boxes {
+   display: flex;
+   flex-flow: column wrap;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+.ul-boxes > a {
+   margin-bottom: 10px;
+   padding: 35px 5px;
+   border-radius: 7px;
+   text-align: center;
+   box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%);
+   background-color: #fff;
+   text-transform: capitalize;
+   text-decoration: none;
+}
+.ul-boxes > a:nth-child(6n+1) {
+   color: #B65E5E; /* Applies to every 6th child starting from the 1st child */
+}
+
+.ul-boxes > a:nth-child(6n+2) {
+   color: #B67230; /* Applies to every 6th child starting from the 2nd child */
+}
+
+.ul-boxes > a:nth-child(6n+3) {
+   color: #B39A23; /* Applies to every 6th child starting from the 3rd child */
+}
+
+.ul-boxes > a:nth-child(6n+4) {
+   color: #50a21a; /* Applies to every 6th child starting from the 4th child */
+}
+
+.ul-boxes > a:nth-child(6n+5) {
+   color: #10938b; /* Applies to every 6th child starting from the 5th child */
+}
+
+.ul-boxes > a:nth-child(6n+6) {
+   color: #9a5f85; /* Applies to every 6th child starting from the 6th child */
+}
+
+.story-button {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%);
+   width: 60%;  
+   background-color: #ececec;
+   color: #4B0082;
+}
+
+.top-button-container {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.top {
+   margin: 7px;
+}
+
+// Media query for tablets
+@media (min-width: @tablet) {
+ 
+}
+
+// Media query for desktops
+@media (min-width: @desktop) {
+   
+   .content-div {
+      padding: 0;
+      margin: 0 auto;
+      width: 90%;
+      max-width: 100%;
+   }
+ 
+   .box-container {
+      padding: 3px 7px;
+      border-radius: 7px;
+      margin-bottom: 20px;
+   }
+   
+}
